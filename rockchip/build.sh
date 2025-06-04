@@ -47,13 +47,10 @@ PACKAGES="$PACKAGES luci-app-autoreboot_1.0-r8_all.ipk"
 PACKAGES="$PACKAGES	luci-i18n-arpbind-zh-cn_25.116.62431~e7f6f1e_all.ipk"
 PACKAGES="$PACKAGES	luci-i18n-minidlna-zh-cn_25.130.38691~48b6321_all.ipk"
 PACKAGES="$PACKAGES	luci-app-netdata_1.0-r1_all.ipk"
-PACKAGES="$PACKAGES
-PACKAGES="$PACKAGES
-PACKAGES="$PACKAGES
-PACKAGES="$PACKAGES
-PACKAGES="$PACKAGES
-PACKAGES="$PACKAGES
-PACKAGES="$PACKAGES
+PACKAGES="$PACKAGES	luci-i18n-v2raya-zh-cn_25.154.30888~023b69b_all.ipk"
+PACKAGES="$PACKAGES	luci-i18n-statistics-zh-cn_25.130.38691~48b6321_all.ipk"
+PACKAGES="$PACKAGES	luci-i18n-upnp-zh-cn_25.154.30888~023b69b_all.ipk"
+PACKAGES="$PACKAGES	luci-app-zerotier_25.116.62431~e7f6f1e_all.ipk"
 
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
