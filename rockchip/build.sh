@@ -37,13 +37,23 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
-PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+PACKAGES="$PACKAGES luci-app-autoreboot_1.0-r8_all.ipk"
+PACKAGES="$PACKAGES	luci-i18n-arpbind-zh-cn_25.116.62431~e7f6f1e_all.ipk"
+PACKAGES="$PACKAGES	luci-i18n-minidlna-zh-cn_25.130.38691~48b6321_all.ipk"
+PACKAGES="$PACKAGES	luci-app-netdata_1.0-r1_all.ipk"
+PACKAGES="$PACKAGES
+PACKAGES="$PACKAGES
+PACKAGES="$PACKAGES
+PACKAGES="$PACKAGES
+PACKAGES="$PACKAGES
+PACKAGES="$PACKAGES
+PACKAGES="$PACKAGES
 
 # 构建镜像
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Building image with the following packages:"
