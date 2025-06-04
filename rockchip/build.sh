@@ -51,7 +51,6 @@ PACKAGES="$PACKAGES	luci-i18n-v2raya-zh-cn"
 PACKAGES="$PACKAGES	luci-i18n-statistics-zh-cn"
 PACKAGES="$PACKAGES	luci-i18n-upnp-zh-cn"
 PACKAGES="$PACKAGES	luci-app-zerotier"
-PACKAGES="$PACKAGES	luci-app-advancedsetting"
 PACKAGES="$PACKAGES	luci-app-wol"
 
 
